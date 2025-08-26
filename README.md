@@ -151,6 +151,31 @@ Interested parties:
 
 * [Put your name here]
 
+**Alfresco JS Root Objects Colletion**
+
+Idea owner: [Angel Borroy](https://github.com/aborroy)
+
+Description: The aim of this project is to consolidate a set of *missing* JavaScript root objects for use within Alfresco
+
+Scripts placed under `Data Dictionary > Scripts` cannot access Spring beans through `Packages.org.springframework...` for security reasons. As a result, several commonly used features that were previously leveraged in folder rules are no longer available.
+
+Over the last months, multiple projects have been created to reintroduce some of these features as independent root objects:
+
+* [alfresco-b64-jscript-root](https://github.com/aborroy/alfresco-b64-jscript-root)
+* [alfresco-hyland-process-js](https://github.com/aborroy/alfresco-hyland-process-js)
+* [script-rendition-service-2](https://github.com/aborroy/script-rendition-service-2)
+* [alfresco-script-root-object](https://github.com/aborroy/alfresco-script-root-object)
+
+The project goal is to consolidate these tools into a unified framework and to extend it further by adding additional root objects, making advanced functionality once again available for rule-based scripting in Alfresco.
+
+Prep work:
+
+- https://github.com/Alfresco/alfresco-community-repo/tree/master/repository/src/main/java/org/alfresco/repo/jscript
+
+Interested parties:
+
+* [Put your name here]
+
 ## Alfresco Process Services
 
 ## Alfresco Development Framework
