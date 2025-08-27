@@ -172,13 +172,45 @@ Prep work:
 
 - https://github.com/Alfresco/alfresco-community-repo/tree/master/repository/src/main/java/org/alfresco/repo/jscript
 
+DevCon work:
+- https://github.com/aborroy/alfresco-script-root-object/pull/1 
+ToDo:
+- Create an official release where everyone can just include this in their projects
+
 Interested parties:
 
-* [Put your name here]
+* [Tahir Malik](https://github.com/shazada)
+* [Sherry Mathews](https://github.com/sherrymax)
+* [Robert Wilds](https://github.com/robwilds)
 
 ## Alfresco Process Services
 
 ## Alfresco Development Framework
+
+Idea Owner: [Tahir Malik](https://github.com/shazada)
+
+Description: ADF NodeBrowser & Javascript Console
+The famous JavaScript-Console every developer uses, but doesn't want to use Share. 
+So the idea was to have the default [Alfresco Content App](https://github.com/alfresco/alfresco-content-app) And extend it with 'Community' libraries. 
+Which libraries are used the most world-wide: 
+* Alfresco Node Browser, both in ACS and Share, maintained by Hyland/Alfresco
+* [Alfresco Javascript-Console](https://github.com/OrderOfTheBee/ootbee-support-tools), maintained by the 'Community'
+
+Read the full blog here 2023:
+[Hyland Blog](https://connect.hyland.com/t5/alfresco-blog/aca-extension-development-javascript-console-node-browser/ba-p/125622)
+
+The goal is dat more people use these new libraries so we can eventually include this in the OrderOfTheBee Support Tools as the ADF frontend.
+https://github.com/Contezza/contezza-apps-community or even better include it in the Alfresco Content App ;)
+
+For now it's just our place for all community libraries we're working on as Contezza
+
+Screenshots:
+![Javascript Console](/Demo_App_ADF_JS_Console.png?raw=true "Contezza Javascript Console")
+![Node Browser](/Demo_App_Node_browser.png?raw=true "Contezza NodeBrowser")
+
+Interested parties:
+
+* [Tahir Malik](https://github.com/shazada)
 
 ## Knowledge Enrichment
 
