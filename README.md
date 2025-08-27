@@ -272,6 +272,10 @@ Interested parties:
 
 - Mikolaj Simon
 
+Output:
+
+- Demo available
+
 ## Knowledge Enrichment
 
 **PII Redation for Document Previsualization**
