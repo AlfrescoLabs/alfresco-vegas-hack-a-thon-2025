@@ -116,8 +116,13 @@ Prep work:
 
 Interested parties:
 
-* [Put your name here]
+* Surhes Joshee
 
+Output:
+
+* Reviewed the Alfresco Maven post
+* Created helping scripts to remove sample code from generated projects (all-in-one, repo, share)
+* Fork available in https://github.com/aborroy/alfresco-developer-series
 
 ## Content Services
 
@@ -132,9 +137,9 @@ Prep work:
 - https://modelcontextprotocol.io/docs/getting-started/intro
 - https://github.com/aborroy/alfresco-mcp-lab
 
-Interested parties:
+Output:
 
-* [Put your name here]
+- No progress
 
 **Make the Alfresco CLI Ready**
 
@@ -147,9 +152,9 @@ Prep work:
 - https://github.com/aborroy/alf-cli
 - https://github.com/aborroy/alfresco-go-cli
 
-Interested parties:
+Output:
 
-* [Put your name here]
+- No progress
 
 **Alfresco JS Root Objects Colletion**
 
@@ -174,13 +179,115 @@ Prep work:
 
 Interested parties:
 
-* [Put your name here]
+* Tahir Malik
+* Sherry Mathews
+* Rob Wilds
+
+Output:
+
+- All projects have been consolidated in https://github.com/aborroy/alfresco-script-root-object
+- Additional wrapper for `Packages` to be used in JS available
+
+**Adding Spring Batch features to Repository Jobs**
+
+Idea owner: Jose Portillo
+
+Description: By replacing Quartz jobs in the Alfresco Repository with Spring Batch, scheduled operations gain several enhancements:
+* Robust transaction management
+* Scalability & parallelism
+* Monitoring & observability
+* Extensibility
+* Resilience & restartability
+
+Output:
+
+- Ideation
+
+**AutoCAD Drawing, Transform & Evaluation**
+
+Idea owner: Dick Weisinger
+
+Description: Extrating information from AutoCAD and other technical file types using AI and DocFilters to transform the original content into Markdown
+
+Interested parties:
+
+- Zack Tomechko
+- Olufemi Okanlomo
+
+Output:
+
+- Demo available
+
+**Node replayer for version rearrangement**
+
+Idea owner: Jared Ottley
+
+Description: Create a deep copy of a node and rearrange the version history: removing versions, reordering...
+
+Interested parties:
+
+- Miguel Sanchez
+
+Output:
+
+- Upgrade https://github.com/keensoft/alfresco-remove-version to ACS 25.2
+- Upgrade https://github.com/jottley/alfresco-maxversion-policy to ACS 25.2
+
+**Conversational Treasure Hunt for Alfresco Repository**
+
+Idea owner: [Angel Borroy](https://github.com/aborroy)
+
+Description: Navigate Alfresco content using AI MCP client to enter folders and read documents. Using a MCP Server that provides the right tools for the LLM (enter a folder, enter a subfolder, read a document...). It may include some *adventure* domain terms to provide a game experience: folders are buildings and subfolders are dungeons, a teleport wand could allow searching... The goal is to find a *treasure* (document or information) in the Alfresco Repository
+
+Output:
+
+- No progress
 
 ## Alfresco Process Services
 
+**Web Application to start an APS Process**
+
+Idea owner: Greg Bousley
+
+Description: Create a web application (using pure HTML) to start a process in APS, that avoids external users to be enrolled in the APS platform
+
+Interested parties:
+
+- Logan Jensen
+- William Findley
+
+Output:
+
+- Demo available
+
 ## Alfresco Development Framework
 
+**OnlyOffice support for ADF**
+
+Idea owner: Robert Rawecki
+
+Description: Collaborative edition with OnlyOffice in ADF applications
+
+Interested parties:
+
+- Mikolaj Simon
+
 ## Knowledge Enrichment
+
+**PII Redation for Document Previsualization**
+
+Idea owner: Jana Olivas
+
+Description: Include PII redaction in Document Preview features for UI apps (like Share or ADF). Using a transformer that creates a PDF rendition with PII redacted with the help of KE.
+
+Interested parties:
+
+- Brian Karr
+- Michael Jackson
+
+Output:
+
+- Ideation
 
 ## Knowledge Discovery
 
